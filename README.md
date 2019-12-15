@@ -1,2 +1,3 @@
-# parcel-blank
-A blank starting point for creating a static site using Parcel.js.
+# Parcel - Blank Starter
+
+A blank starting point for creating a static site using [Parcel](https://parceljs.org).
