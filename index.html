@@ -1,28 +1,20 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-	<title>Parcel | Blank Starter</title>
-
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#000">
 
-	<!-- Non-critical CSS -->
-	<link rel="preload" href="./src/css/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript><link rel="stylesheet" href="./src/css/index.css"></noscript>
+  <link rel="stylesheet" href="./src/scss/index.scss" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="./src/css/index.pcss" media="print" onload="this.media='all'">
+  <script src="./src/js/index.js" defer></script>
 
-  <!-- LoadCSS Async -->
-  <script src="./node_modules/fg-loadcss/dist/loadCSS.min.js" inline="inline"></script>
-
-	<script src="./src/js/index.js" defer></script>
+  <title>Parcel | Blank Starter</title>
 </head>
 <body>
-	<div id="app" class="page">
-		<include src="header.html"></include>
-		<include src="main.html"></include>
-		<include src="footer.html"></include>
-	</div>
+  <header></header>
+  <main>Hello world</main>
+  <footer></footer>
 </body>
 </html>
